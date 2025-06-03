@@ -61,7 +61,7 @@ const enableboxes=()=>{
     }
 }
 let showwinner=(winner)=>{
-  msg.innertext=`winner is ${winner}`;
+  msg.innerText=`winner is ${winner}`;
    message.classList.remove("hide");
 }
 const checkwinner=() =>{
